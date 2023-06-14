@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>portfolio</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg tertiarya">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img
+                            class="logo img-fluid"
+                            src="./Images/logo boot.PNG"
+                            alt=""
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse flex-grow-1  justify-content-end"
+                        id="navbarNav"
+                    >
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item flex-grow-1">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >HOME</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >SERVICES</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >ABOUT</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >CONTACT</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    fill="#808080"
+                    fill-opacity="1"
+                    d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,90.7C672,64,768,96,864,96C960,96,1056,64,1152,90.7C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+                ></path>
+            </svg>
+        </header>
+        <main>
+            <div class="about row align-items-center p-3">
+                <div class="img-container col-sm-10 col-md-5 col-lg-6">
+                    <img
+                        class="rounded-circle w-100"
+                        src="./Images/mma.jpg"
+                        alt=""
+                    />
+                </div>
+                <div class=" col-sm-12 col-md-4 col-lg-5">
+                    <p class="fst-italics fw-medium desc-size">
+                        I am a front end web developer,I create captivating
+                        designs. I have done many projects on web designs.
+                    </p>
+                </div>
+            </div>
+            <div class="work works" >
+                <div class="p-2">
+                    <p class="fs-1 fw-bold ">MY PROJECTS</p>
+                </div>
+                <div class="project1 row">
+                    <div class=" works google col-12 col-md-4">
+                        <img
+                        class="h-100 w-75"
+                         src="./Images/google.png" alt="" />
+                         <p class="fs-3 fst-italics">Google clone</p>
+                    </div>
+                    <div class="works game col-12 col-md-4">
+                        <img 
+                        class="h-100 w-75" 
+                        src="./Images/GAME.png" alt="" />
+                        <p class="fs-3 fst-italics">Games</p>
+                    </div>
+                    <div class="works freecodee col-12 col-md-4">
+                        <img class="w-75 h-100" src="./Images/freecodw.png" alt="">
+                        <p class="fs-3 fst-italics">Freecode clone</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="form w-100 p-5 bg-gradient row">
+                    <h3 class="text-capitalize fs-2">Contact me below</h3>
+                    <form method="post" action="#">
+                            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+
+                                <label for="name">Name:</label>
+                                <input class="form-control shadow" type="text" placeholder="Full Name" id="name" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+                                <label for="email">Email Adress:</label>
+                                <input class="form-control shadow"type="email" id="email" placeholder="Email Address" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+                                <label for="phone">Phone Number:</label>
+                                <input class="form-control shadow"  type="tel" id="phone" placeholder="enter phone number"/>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+                                <button class="btn rounded bg-white w-100 btn-style"  type="submit" >Submit </button>
+                            </div>
+                        
+                    </form>
+
+                </div>
+        </main>
+        <footer>
+            <p class="text-center fs-3 fw-medium">&copy  07068999868  CHIDI</p>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
